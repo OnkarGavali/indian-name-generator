@@ -86,3 +86,17 @@ def femaleGujarati():
 	nameGujarati=random.choice(femaleNameGujarati)
 	return nameGujarati
 #-----
+#Kannada
+#-----
+maleNameKannada=["Shreyas","Ganesh","Rishab","Ritvik","Ramesh","Abhhishek","Nandan","Kishen","Narayan","Aniket","Pawan","Hanumappa","Shiva","Rajath","Prateek","Prajwal","Ujval","Utaam","Mohit","Chetan","Dheeraj","Somshekar","Mahesh","Mallikarjun","Tony","Sukesh","Varun","Nikhil","Vasant","Deepak","Vasudev","Subrmanya","Vinay","hrihari","Santosh","Darshan","Vikshit","Amogh","Govind","Vittal","Jagganath","Shishir","Guru","Girish","Vikunt","Keshaw","Arya","Rahul","Rajesh","Shashidar","Venktash","Raman","Dhanush","Arjun","Karana","Kubera"]
+femaleNameKannada=["Rachana","Divya","Renuka","Deeksha","Arpita","Ambruta","Bharathi","Seema","Shantala","Shoba","Kaveri","Priya","Prabha","Saraswati","Yeshaswini","Tejaswini","Sindhu","Ramya","Radhika","Shreya","Sameeksha","Chandana","Ganga","Meera","Nayana","Parvati","Shambavi","Sumana","Sridevi","Rishitha","Sneha","Vidya","Vaishanavi","Geetha","Veena","Kavita","Kavya","Kavana","Keerthi","Lavanya","Vandita","Vinuta","Aishwarya","Soundarya","Ananya","Samveetha","Bhavya","Bhagya","Girija","Gayatri","Anu","Dhanya","Krutika","Anjali"]
+surnameKannada = ["Shenoy","Bhat","Pai","Kini","Hegede","Patil","Kotambri","Reddy","Rai","Shetty","Rao","Menasinkai","Ullagaddi" ,"Limbekai", "Ballolli", "Tenginkai", "Byali","Akki", "Doddamani", "Hadimani" , "Kattimani", "Bevinmarad", "Hunasimarad" , "Mirjankar", "Belagavi", "Hublikar" ,"Jamkhandi","Angadi", "Amavasya", "Kage", "Bandi", "Kuri", "Kudari", "Toppige", "Beegadkai", "Pyati" ,"Hanagi" ,"Rotti","Hebbar","Ballal","Rai"]
+
+
+def maleKannada():
+	nameKannada=random.choice(maleNameKannada)+" " + random.choice(surnameKannada)
+	return nameKannada
+def femaleKannada():
+	nameKannada=random.choice(femaleNameKannada)+" " + random.choice(surnameKannada)
+	return nameKannada
+#-----
